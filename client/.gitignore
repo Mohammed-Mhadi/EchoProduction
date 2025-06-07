@@ -23,3 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 backend/server/firebase/serviceAccountKey.json
+
+
+.env
+.env.* 

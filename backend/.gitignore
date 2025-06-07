@@ -1,2 +1,5 @@
 backend/server/firebase/serviceAccountKey.json
-backend/server/firebase/serviceAccountKey.json
+
+
+.env
+.env.* 
