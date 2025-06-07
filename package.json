@@ -1,0 +1,27 @@
+{
+  "name": "echoproduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "both": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammed-Mhadi/EchoProduction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammed-Mhadi/EchoProduction/issues"
+  },
+  "homepage": "https://github.com/Mohammed-Mhadi/EchoProduction#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}

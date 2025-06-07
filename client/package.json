@@ -20,6 +20,7 @@
     "@react-jvectormap/world": "^1.1.2",
     "apexcharts": "^4.1.0",
     "clsx": "^2.1.1",
+    "dotenv": "^16.5.0",
     "firebase": "^11.8.0",
     "flatpickr": "^4.6.13",
     "react": "^19.0.0",

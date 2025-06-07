@@ -1,24 +1,19 @@
-// firebase.js
 import { initializeApp } from "firebase/app";
-import { getAuth , GoogleAuthProvider } from "firebase/auth";
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
-// Your Firebase configuration object (get this from your Firebase project settings)
 const firebaseConfig = {
-  apiKey: 'AIzaSyCNxXsJErgLNg1QHRAKx5EulzkBedhLmcI',
-  authDomain: 'echo-b93c4.firebaseapp.com',
-  projectId: 'echo-b93c4',
-  storageBucket: 'echo-b93c4.appspot.com',
-  messagingSenderId: '331418520612',
-  appId: '1:331418520612:web:e787be86282b61387ddcb1',
-  measurementId: 'G-NYNMCXJVSB'
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-// Initialize Firebase app
 const app = initializeApp(firebaseConfig);
-
-// Initialize Firebase Authentication and export it
 const auth = getAuth(app);
 const googleProvider = new GoogleAuthProvider();
 
-export { auth , googleProvider};
+export { auth, googleProvider };
 export default app;
