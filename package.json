@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "both": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix backend\""
+    "both": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix backend\"",
+    "start": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix backend\""
+
+ 
   },
   "repository": {
     "type": "git",
