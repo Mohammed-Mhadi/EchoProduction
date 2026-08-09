@@ -47,7 +47,6 @@ All components are built with React and styled using Tailwind CSS for easy custo
 - Refer to the Tailwind CSS v4 [Migration Guide](https://tailwindcss.com/docs/upgrade-guide) on this release. if needed.
 - This update keeps the project up to date with the latest Tailwind improvements. 🚀
 
-### Version 2.0.0 - [February 2025]
 
 A major update with comprehensive redesign and modern React patterns implementation.
 
@@ -71,8 +70,6 @@ A major update with comprehensive redesign and modern React patterns implementat
 - Updated sidebar component API
 - Migrated charts to ApexCharts
 - Revised authentication system
-
-### Version 1.3.7 - [June 20, 2024]
 
 #### Enhancements
 
